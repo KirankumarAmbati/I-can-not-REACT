@@ -10,4 +10,4 @@ If you are new to Javascript, the following resources may help you to get starte
 * **[ES6- javaScript Improved](https://in.udacity.com/course/es6-javascript-improved--ud356)**
 
 Introduction to React:
-* **[Beginer's Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react)
+* **[Beginer's Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react)**
