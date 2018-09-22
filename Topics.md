@@ -1,7 +1,7 @@
 # Topics
 
-1.  Basics of ES6
-2.History of React
+1. Basics of ES6
+2. History of React
 3. Importance of React
 4. Virtual DOM 
 5. Components
