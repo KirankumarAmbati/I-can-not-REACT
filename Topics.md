@@ -6,7 +6,7 @@
 4. Virtual DOM 
 5. Components
 6. State vs Props
-7. Component LIfe Cycle
+7. Component Life Cycle
 8. State Management
 9. Advanced React Components
 
