@@ -10,7 +10,7 @@
     
     b. Make sure your content is in passive/third person english.
     
-    c. Please do **NOT** copy the content from elsewhere on the internet and just paste it here. ***This repo is not for that purpose.*** Make contributions that are your own. Please pen down what you have understood from a conceppt. Incase if your understanding of a concept is wrong, there are millions of good people who are ready to help you out. So keep the ball rolling !
+    c. Please do **NOT** copy the content from elsewhere on the internet and just paste it here. ***This repo is not for that purpose.*** Make contributions that are your own. Please pen down what you have understood from a concept. Incase if your understanding of a concept is wrong, there are millions of good people who are ready to help you out. So keep the ball rolling !
     
     d. Please make sure your commit message is meaningful. :)
 
