@@ -14,4 +14,9 @@
     
     d. Please make sure your commit message is meaningful. :)
 
-    Happy Coding !
+## How does a good article look like ?
+1. The article should be ***detailed.***
+2. The article should be ***clear*** and ***easier to understand.***
+3. The article should contain ***examples*** wherever possible.
+
+Happy Coding !
