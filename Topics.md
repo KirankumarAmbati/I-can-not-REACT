@@ -7,7 +7,7 @@
 5. Components
 6. State vs Props
 7. Component Life Cycle
-8. State Management
+8. State Management (Redux & Context API)
 9. Advanced React Components
 
 If any topic is missed out, please feel free to submit a PR ! :)
