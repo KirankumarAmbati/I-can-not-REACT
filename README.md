@@ -12,4 +12,4 @@ If you are new to Javascript, the following resources may help you to get starte
 
 Introduction to React:
 * **[Beginer's Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react)**
-* **[Beginner's Guide To React's Context API](ContextAPI.md)**
+
