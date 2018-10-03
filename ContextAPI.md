@@ -116,7 +116,7 @@ On the receiving end (i.e., a component “under” the Provider in the componen
 Wrapping the Grandchild component within the context’s consumer which invokes a function with a specified value to render the JSX.  
 
 
-** Let’s take a look at our app now… **  
+**Let’s take a look at our app now…**  
 
 <img src="https://cdn-images-1.medium.com/max/800/1*EIIVPV3WnE60H4lh19bTMA.png" alt="output">    
 
