@@ -11,5 +11,7 @@ If you are new to Javascript, the following resources may help you to get starte
 * **[Learning Javascript's Promises](https://in.udacity.com/course/javascript-promises--ud898)**
 
 Introduction to React:
+* **[React Documentation](https://reactjs.org/docs/getting-started.html)**
 * **[Beginer's Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react)**
-
+* **[React + Webpack 4 + Babel 7 Setup Tutorial](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)**
+* **[Create React App](https://github.com/facebook/create-react-app)**
