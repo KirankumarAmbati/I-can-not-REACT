@@ -34,3 +34,11 @@ constructor(props) {
     };
 }
 ```
+### Mounting
+Mounting is the process that occurs when a component is being inserted into the DOM. This phase has two methods that we can hook up with: componentWillMount() and componentDidMount().
+
+The componentWillMount() method is the first called in this phase. It’s invoked once and immediately before the initial rendering occurs, hence before React inserts the component into the DOM.
+
+The componentDidMount() is the second invoked in this phase, just once and immediately after React inserts the component into the DOM. Good time for initializing other Javascript libraries that need access to the DOM and for data fetching operations
+
+Note: Calling this.setState() within `componentWillMount()` will not trigger a re-render.
