@@ -35,7 +35,7 @@ constructor(props) {
 }
 ```
 ### Mounting
-Mounting is the process that occurs when a component is being inserted into the DOM. This phase has two methods that we can hook up with: `componentWillMount()` and `componentDidMount()`.
+Mounting is the process that occurs when a component is being inserted into the DOM. This phase has two methods that we can hook up with: `componentWillMount()` and `componentDidMount()`.  
 
 - The `componentWillMount()` method is the first called in this phase. It’s invoked once and immediately before the initial rendering occurs, hence before React inserts the component into the DOM.
 
