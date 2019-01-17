@@ -12,6 +12,7 @@
 10. Higher Order Components
 11. Advanced React Components
 12. React Hooks
+13. React Router
 
 
 If any topic is missed out, please feel free to submit a PR ! :)
