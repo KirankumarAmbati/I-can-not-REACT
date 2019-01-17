@@ -24,7 +24,7 @@ constructor() {
     };
 }
   
-  OR 
+  OR
   
 constructor(props) {
   super(props);
