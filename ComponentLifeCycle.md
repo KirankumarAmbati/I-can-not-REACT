@@ -15,7 +15,7 @@ The process where all these stages are involved is called the component’s life
 ### Initialization
 We use `constructor()` for this purpose. To initialise any variable state with props or without props. 
 
-```
+``` 
 constructor() {
   super();
   this.state = {
@@ -24,7 +24,7 @@ constructor() {
     };
 }
   
-  OR
+  OR 
   
 constructor(props) {
   super(props);
