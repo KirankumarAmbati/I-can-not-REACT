@@ -1,6 +1,6 @@
 ## React Component Life Cycle
 
-We already know that it uses the `render()` method for this purpose. 
+We already know that it uses the `render()` method for rendering the page on UI.
 However having only the `render()` method may not always suffice our requirements. 
 What if we want to do something before or after the component has rendered or mounted ? What if we want to avoid a re-render?
 
