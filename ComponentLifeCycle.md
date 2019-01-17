@@ -7,7 +7,7 @@ What if we want to do something before or after the component has rendered or mo
 Looks like we need more control over the stages that a component goes through. 
 The process where all these stages are involved is called the component’s lifecycle and every React component goes through it.
 
-- **Initialization**
+- **Initialization** 
 - **Mounting**
 - **Updating**
 - **UnMounting**
