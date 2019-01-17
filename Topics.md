@@ -9,7 +9,7 @@
 7. Component Life Cycle
 8. State Management (Redux & Context API)
 9. Flux Concept
-10.Higher Order Components
+10. Higher Order Components
 11.Advanced React Components
 12.React Hooks
 
