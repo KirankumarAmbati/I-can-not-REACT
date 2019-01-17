@@ -19,4 +19,4 @@
 2. The article should be ***clear*** and ***easier to understand.***
 3. The article should contain ***examples*** wherever possible.
 
-Happy Coding !
+Happy coding !
