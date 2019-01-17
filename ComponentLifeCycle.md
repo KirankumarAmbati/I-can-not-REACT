@@ -11,7 +11,7 @@ The process where all these stages are involved is called the component’s life
 - **Mounting**
 - **Updating**
 - **UnMounting**
-
+ 
 ### Initialization
 We use `constructor()` for this purpose. To initialise any variable state with props or without props. 
 
