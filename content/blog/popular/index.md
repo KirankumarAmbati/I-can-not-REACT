@@ -1,6 +1,7 @@
 ---
 title: Why React is popular ?
 date: "2019-02-26T11:31:52.169Z"
+author: cellphone4ET
 ---
 
 ## Why is React so Popular?

@@ -1,6 +1,7 @@
 ---
 title: Component Life Cycle
 date: "2019-02-26T11:31:52.169Z"
+author: viragjainVJ
 ---
 
 ## Component Life Cycle

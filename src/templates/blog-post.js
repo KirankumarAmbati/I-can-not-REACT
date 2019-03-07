@@ -35,7 +35,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+        <Bio userName={post.frontmatter.author} />
 
         <ul
           style={{
@@ -83,6 +83,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        author
       }
     }
   }

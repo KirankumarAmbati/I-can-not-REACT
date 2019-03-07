@@ -1,6 +1,7 @@
 ---
 title: React And JSX
 date: "2019-02-26T11:31:52.169Z"
+author: andrewkoung
 ---
 
 ## React and JSX

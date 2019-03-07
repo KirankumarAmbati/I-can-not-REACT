@@ -1,6 +1,7 @@
 ---
 title: Context API
 date: "2019-02-26T11:31:52.169Z"
+author: AdithyaBhat17
 ---
 
 # A beginner’s guide to understanding React’s context API

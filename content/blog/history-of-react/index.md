@@ -1,6 +1,7 @@
 ---
 title: History Of React
 date: "2019-02-26T11:31:52.169Z"
+author: maaz28
 ---
 
 ### How React Come into Action
