@@ -1,5 +1,5 @@
 # I can not REACT
-The complete book on Reactjs.
+The complete book on Reactjs. Live at: [https://i-can-not-react.netlify.com](https://i-can-not-react.netlify.com)
 
 ## Beginner Resources
 
