@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { DiscussionEmbed } from 'disqus-react'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -29,13 +30,13 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+        <Bio userName={post.frontmatter.author} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
-        <Bio userName={post.frontmatter.author} />
 
         <ul
           style={{
@@ -61,6 +62,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <DiscussionEmbed shortname="kirankumarambati" config={{identifier: post.id, title: post.frontmatter.title}} />
       </Layout>
     )
   }

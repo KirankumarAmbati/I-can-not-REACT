@@ -17,6 +17,7 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
+        <p><b>Note:</b> This docs are contributed by passionate developers around the world. You can find the link to contributor profile in each article. If you like what we are doing, give <a href="https://github.com/KirankumarAmbati/I-can-not-REACT">this repo</a> a star, contribute to the docs and follow the contributors. Cheers!</p>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
