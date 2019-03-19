@@ -45,6 +45,9 @@ To get us from the starting point to the end, we'll just use JavaScript's .map()
 const excitedPeople = people.map(name => name + '!')
 ```
 
-That's it! Notice that with this code we haven't:
+That's it! Notice that with this code, we haven't:
 
-created an iterator object told the code when it should stop running used the iterator to access a specific item in the people array stored each new string in the excitedPeople array ...all of those steps are taken care of by JavaScript's .map() Array method.
+- created an iterator object told the code when it should stop running. 
+- used the iterator to access a specific item in the people array stored each new string in the excitedPeople array. 
+
+Those are taken care of by JavaScript's .map() Array method.
