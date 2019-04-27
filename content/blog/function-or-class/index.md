@@ -4,9 +4,11 @@ date: "2019-04-27T11:31:52.169Z"
 author: fgarcia-student
 ---
 
+![React.js](https://cdn.dribbble.com/users/85685/screenshots/2788749/react_dribbble.jpg)
+
 > <h1>tldr;</h1> Start with a Function component, leveraging the new React Hooks API introduced in 16.8 . As of November 2nd 2018 Dan Abramov, one of the maintainers of React, advised that <a aria-label="Link to Dan Abramov's article on Hooks" href="https://dev.to/dan_abramov/making-sense-of-react-hooks-2eib">this is the way to write React components from here on.</a> If you need any currently <a aria-label="Link to use cases for hooks over classes" href="https://reactjs.org/docs/hooks-faq.html#do-hooks-cover-all-use-cases-for-classes">unimplemented features, or a library you use does not support hooks</a> then stay with a Class component.
 
-##React has gone through a Component API change before
+## React has gone through a Component API change before
 
 Before Class Components were introduced, there was a <i>(now deprecated)</i> `createClass` method that was the standard. Here is an example of what a call to this method looks like:
 
