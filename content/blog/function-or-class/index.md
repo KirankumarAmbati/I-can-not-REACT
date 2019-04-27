@@ -40,7 +40,7 @@ There has recently been a new API introduced to find a more 'atomic' version of 
 
 <img alt="Gif of Hook from the movie Hook" style="display: block; margin: 0 auto;" src="https://media.giphy.com/media/dUT2ybRu5Ytxu/giphy.gif" />
 
-<h4 style="color: #AFAFAF; display: flex; justify-content: center">Hooks to Classes after Dan names hooks the new standard</h4>
+<h4 style="color: #AFAFAF; display: flex; justify-content: center">Hooks to Classes after Dan names them the new standard</h4>
 
 ## React Hooks take the stage
 
