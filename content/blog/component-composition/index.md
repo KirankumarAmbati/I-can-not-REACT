@@ -1,3 +1,9 @@
+---
+title: Component Composition
+date: "2019-05-30"
+author: fosteman
+---
+
 # Component Composition
 
 Whenever a UI component is intended to render children nested within, `props.children` are expanded using JSX
