@@ -1,5 +1,5 @@
 ---
-title: Redux: Flux application architecture
+title: Redux
 date: "2019-05-31"
 author: fosteman
 ---
