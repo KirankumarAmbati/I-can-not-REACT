@@ -1,3 +1,9 @@
+---
+title: Redux
+date: "2019-05-31"
+author: fosteman
+---
+
 #Redux: Flux application architecture
 Modern applications, vivid in interface and rich in functionality demand extra attention organizing codebase. Previously, it has been easy to mimick a plate of Spaghetti with your code that slowed down developers and constricted business - utterly inappropriate. Thence MVC paradigm (Model-View-Controller) was born to bring about peace and order into development lifecycles.
 
