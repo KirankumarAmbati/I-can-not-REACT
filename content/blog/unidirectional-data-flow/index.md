@@ -1,5 +1,5 @@
 ---
-title: Uniderictional Data Flow
+title: Unidirectional Data Flow
 date: "2019-06-02"
 author: fosteman
 ---
