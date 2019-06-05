@@ -81,7 +81,7 @@ class ExampleOfState extends Component {
 -- FUNCTION COMPONENT --
 
 const SomeComponent = props => {
-    render (
+    return (
         <div>
             <button onClick={props.clicked}><button/>
         </div>
