@@ -4,15 +4,8 @@ date: "2019-08-30"
 author: ajeasmith
 ---
 
-#### React Hooks - 
-functions that allow you to use state and lifecycle methods within functional components.
 
-##### Types of hooks: 
-- useState - let's you add and update state within your functional components.
-- useRef - make a reference to an element.
-- useEffect - method similar to componentDidMount, gets called when component renders.
-
-let's do a quick review on how state is managed within class based components...
+Before I dive into react hooks and functional components, let's do a quick review on how state is managed within class based components...
 
 ```
 import React, { Component } from 'react'
@@ -27,6 +20,7 @@ class App extends Component {
     }
     
     counting = () =>{
+        let {count} = this.state
         this.setState(count: count++)
     }
     render(){
@@ -41,12 +35,38 @@ class App extends Component {
 ```
 In this class based component we defined what our state of this App component will look like. -> ```{count: 0}``` within our ```this.state``` object.
 
-We then create a method called "counting" and changed our state using ```this.setState``` with our updated value. In our case, the ```{count: count++}``` property is incrementing when button is clicked --> ```<button onClick={counting}>add</button>```
+We then create a method called "counting" and changed our state using ```this.setState``` with our updated value. In our case, the ```{count: count++}``` property is incrementing when button is clicked --> ```<button onClick={this.counting}>add</button>```
 
-### React hooks
-React hooks is actually very similar when it comes to managing state. It is made specifically for functional components because we cannot use ```this.state``` or ```this.setState``` objects inside functional components.
+This is how it is done with class components, let's talk about functional components now...
 
-let's implement the above using a functional component and hooks...
+### Functional Components
+Things to note when converting to functional components (NO HOOKS)
+
+- The ’this’ keyword is no longer available
+- They do not have state or lifecycle methods
+- They’re just pure functions that return something
+- They were known as dummy components because they return the UI, NOT state or logic.
+
+----
+When hooks were created, it changed how functional components operate.
+
+### Functional Components with... React hooks
+
+#### React Hooks - 
+Functions that allow you to use state and lifecycle methods within functional components.
+
+Functional components (AFTER) react hooks
+- They can have state 
+- They can have lifecycle methods
+
+Side note —> however, they still don’t have access to ’this’.
+
+##### Types of hooks: 
+- useState - let's you add and update state within your functional components.
+- useRef - make a reference to an element.
+- useEffect - method similar to componentDidMount/componentDidUpdate, gets called when component renders/updates.
+
+let's change that class based component into a functional component with hooks...
 
 ```
 import React, { useState } from 'react'
@@ -57,7 +77,6 @@ const App (){
     counting = () =>{
         setCount(count++)
     }
-    
     return(
         <div>
             count is: {count}
@@ -84,6 +103,7 @@ We can pass in an object for our initial state with multiple properties. Like th
 then we can access our properties in our return using ```state.count``` or ```state.isLoading```.
 
 ### RECAP
+- Don't have access to 'this' keyword
 - React hooks can only be used in functional components
 - There are many types of hooks you can use like useState, useRef, and useEffect.
 - A string, object, number or null can be passed in as the initial state when using ```useState```.
