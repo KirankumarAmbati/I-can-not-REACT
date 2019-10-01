@@ -39,7 +39,7 @@ class ExampleOfState extends Component {
 }
 ```
 
-In this example the value will be always 0, so the output will always be the **'The value is 0!'**. Nevertheles, to make use of the **state** in our application, we must always refer to that as **this.state.** nameOfYourState.
+In this example the value will be always 0, so the output will always be the **'The value is 0!'**. Nevertheless, to make use of the **state** in our application, we must always refer to that as **this.state.** nameOfYourState.
 
 State is so awesome that we can even change it! We can change the state by using **setState**:
 
@@ -51,7 +51,7 @@ However, there is a problem, to keep up with the development best practices we m
 
 # Why use props?
 
-Props are the "state" version in Function components. However, we need to be careful!! **We cannot manipulate props, or change it inside a FUNCTION COMPONENT**. It would make our applications really messy, therefore, we just pass props as references. In summary, props are like a brigde that link the dynamic content in a class component to a function component.
+Props are the "state" version in Function components. However, we need to be careful!! **We cannot manipulate props, or change it inside a FUNCTION COMPONENT**. It would make our applications really messy, therefore, we just pass props as references. In summary, props are like a bridge that link the dynamic content in a class component to a function component.
 
 ```
 -- CLASS COMPONENT --
