@@ -108,7 +108,7 @@ Who knows? It's up to those of us in the community to find out what works and wh
 ## So, what should I use? Function or Class Components in April 2019?
 
 Function components if you do not need `getSnapshotBeforeUpdate`
-or `componentDidCatch`, or if you have a partifular library that is not compatabile with Hooks. All other use cases are covered by Hooks.
+or `componentDidCatch`, or if you have a particular library that is not compatible with Hooks. All other use cases are covered by Hooks.
 
 ## Final Thoughts
 
