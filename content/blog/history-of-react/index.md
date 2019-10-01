@@ -19,7 +19,7 @@ They had the model right, but they needed to do something about user experience.
 Jordan Walke the mastermind created the early prototype of the most popular framework of the decade.
 
 **2012 - Something new had started at Facebook**
-A improved version of react prototype helps facebook engineers to manage facebook ads more conveniently. Insterest of instagram in the react library constantly force facebook to make it open source
+A improved version of react prototype helps facebook engineers to manage facebook ads more conveniently. Interest of instagram in the react library constantly force facebook to make it open source
 
 **2013 - The year of the Big Launch**
 The Big News is - The React Got open sourced, Developers can not be happy enough this year.

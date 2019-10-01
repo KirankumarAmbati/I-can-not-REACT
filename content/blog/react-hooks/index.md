@@ -27,7 +27,7 @@ class App extends Component {
         return (
             <div>
                 count is: {this.state.count}
-                <buton onClick={this.counting}>add</button>
+                <button onClick={this.counting}>add</button>
             </div>
         )
     }
@@ -90,7 +90,7 @@ Let's break down what's happening here...
 
 1. We are importing the ```useState``` method from react
 2. We are creating a functional component named ```App```
-3. The ```count``` and ```setCount``` are values we destructer out of the useState. the ```count``` is the state and ```setCount``` is the function that updates it.
+3. The ```count``` and ```setCount``` are values we destructure out of the useState. the ```count``` is the state and ```setCount``` is the function that updates it.
 4. Inside our useState we pass in our initial state, which is 0.
 5. We create a counting method that updates the count using the ```setCount``` method.
 6. Lastly, the button calls the counting method and updates the count. we can see the count value by adding it in our return
