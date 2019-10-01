@@ -18,7 +18,7 @@ Although there are many benefits to React over its competitors, it could be argu
 
 **The Virtual DOM**
 
-React uses something called the virtual DOM, which solves an all-too-common problem many other frameworks and front-end libraries have of updating the DOM more than necessary. Manipulating the DOM is a slow process, and the ability to avoid uncessary updates means your application can run faster and more responsively.
+React uses something called the virtual DOM, which solves an all-too-common problem many other frameworks and front-end libraries have of updating the DOM more than necessary. Manipulating the DOM is a slow process, and the ability to avoid unnecessary updates means your application can run faster and more responsively.
 
 The virtual DOM is essentially a representation of the current DOM object. Instead of updating the entire DOM when a React app's state changes, React updates the virtual DOM. This is then compared against the current state of the actual DOM, and in doing so, the exact change can be identified. React can then update the DOM to reflect only those things that have changed as opposed to updating the entire DOM.
 
