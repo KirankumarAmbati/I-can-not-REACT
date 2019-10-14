@@ -10,36 +10,44 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
+    const postList = posts.map(({ node }) => {
+      const title = node.frontmatter.title || node.fields.slug
+      return (
+        <div key={node.fields.slug}>
+          <h3
+            style={{
+              marginBottom: rhythm(1 / 4),
+            }}
+          >
+            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+              {title}
+            </Link>
+          </h3>
+          <small>{node.frontmatter.date}</small>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: node.frontmatter.description || node.excerpt,
+            }}
+          />
+        </div>
+      )
+    })
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <p><b>Note:</b> This docs are contributed by passionate developers around the world. You can find the link to contributor profile in each article. If you like what we are doing, give <a href="https://github.com/KirankumarAmbati/I-can-not-REACT">this repo</a> a star, contribute to the docs and follow the contributors. Cheers!</p>
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
-          )
-        })}
+        <p>
+          <b>Note:</b> This docs are contributed by passionate developers around
+          the world. You can find the link to contributor profile in each
+          article. If you like what we are doing, give{" "}
+          <a href="https://github.com/KirankumarAmbati/I-can-not-REACT">
+            this repo
+          </a>{" "}
+          a star, contribute to the docs and follow the contributors. Cheers!
+        </p>
+        {postList}
       </Layout>
     )
   }
