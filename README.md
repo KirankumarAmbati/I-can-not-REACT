@@ -24,4 +24,9 @@ Introduction to React:
 - **[The React Handbook](https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795)**
 - **[Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)**
 - **[Introduction to Redux](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6)**
+- **[React Hooks Introduction by Dan Abramov](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)**
 - **[How to Use Hooks in React.js App](https://www.djamware.com/post/5d67945100edd42e67632f9c/react-hooks-tutorial-how-to-use-hooks-in-reactjs-app)**
+
+Cool Resources:
+
+- **[Custom Hooks compilation](https://usehooks.com/)**
