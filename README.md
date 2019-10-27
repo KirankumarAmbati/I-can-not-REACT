@@ -15,6 +15,6 @@ Introduction to React:
 
 - **[React Documentation](https://reactjs.org/docs/getting-started.html)**
 - **[Beginer's Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react)**
-- **[COMPLETE INTRO TO REACT](https://btholt.github.io/complete-intro-to-react-v5/)
+- **[COMPLETE INTRO TO REACT](https://btholt.github.io/complete-intro-to-react-v5/)**
 - **[React + Webpack 4 + Babel 7 Setup Tutorial](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)**
 - **[Create React App](https://github.com/facebook/create-react-app)**
