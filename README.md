@@ -1,8 +1,28 @@
-# I can not REACT
+<div align='center'>
+  
+  # I can not REACT
+  <img src='https://github.com/KirankumarAmbati/I-can-not-REACT/assets/12962887/43e6e32c-d633-477a-b1eb-09af2e82f2ee' alt="react" height="300" width="400" />
+  
+</div>
+
+<div align="center">
+    <p>
+	    <a name="stars"><img src="https://img.shields.io/github/stars/KirankumarAmbati/I-can-not-REACT?style=for-the-badge"></a>
+	    <a name="forks"><img src="https://img.shields.io/github/forks/KirankumarAmbati/I-can-not-REACT?logoColor=green&style=for-the-badge"></a>
+	    <a name="contributions"><img src="https://img.shields.io/github/contributors/KirankumarAmbati/I-can-not-REACT?logoColor=green&style=for-the-badge"></a>
+	    <a name="madeWith"><img src="https://img.shields.io/badge/Made%20with-ReactJS-1f425f.svg?style=for-the-badge"></a>
+    </p>
+</div>
+
+<div align='center'>
 
 The complete docs on Reactjs. Written by the community, for the community.
 
 Live at: [https://i-can-not-react.netlify.com](https://i-can-not-react.netlify.com)
+
+</div>
+
+---
 
 ## Beginner Resources
 
